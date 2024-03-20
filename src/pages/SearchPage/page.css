@@ -1,0 +1,12 @@
+.searchpage{
+    background-image:url(background.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    width: 100vw;
+}
+
+.searchfunction{
+    background-image: none;
+    margin-top: 20%;
+}

@@ -1,0 +1,77 @@
+.weatherElement{
+    background-size: cover;
+    margin: 30px;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid white;
+    background-color: rgba(17, 16, 16, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+.cityName{
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dailyWeather{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    border-top: 2px solid white;
+    overflow-x: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cloudy{
+    width: 80px;
+    margin-left: 15px;
+}
+
+.sunny{
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.dailyWeatherElement{
+    padding: 2rem;
+    border: 4px solid white;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    /* filter: grayscale(80%); */
+    margin: 10px;
+    /* background-color: aliceblue; */
+    /* color: black */
+
+}
+
+.wind{
+    font-size: 1rem;
+    width: max-content;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sunny{
+        width: 40px;
+        margin-left: 10px;
+    }
+    .cloudy{
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .dailyWeatherElement{
+        padding: 0.5rem;
+        margin: 4;
+        font-size: 1rem;
+    }
+
+    .dailyWeather{
+        overflow-x: scroll;
+    }
+
+    .wind{
+        width: min-content;
+    }
+  }
